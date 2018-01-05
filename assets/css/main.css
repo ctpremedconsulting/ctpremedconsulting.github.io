@@ -4814,6 +4814,17 @@
 			object-position: right;
 		}
 
+        .spotlight.style1.special {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			/*background-image: url("images/overlay3.png"), url("../../images/header.jpg");*/
+            background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+
+			background-size: auto,							cover;
+            
+        }
+
 /* Spotlight (style2) */
 
 	.spotlight.style2 {
